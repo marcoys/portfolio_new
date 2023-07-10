@@ -1,0 +1,83 @@
+[
+  {
+    "id" : 0,
+    "title" : "React",
+    "icon" : "react",
+    "detail" : [ 
+      "React를 이용해 개인프로젝트를 진행한 경험이 있습니다.", "데이터 상태관리를 위해 Redux toolkit을 사용할 수 있습니다.", 
+      "컴포넌트의 재사용과 범용성에 중점을 둔 구조설계를 추구합니다."]
+  },
+  {
+    "id" : 1,
+    "title" : "Java Script",
+    "icon" : "javascript",
+    "detail" : [ 
+      "자바스크립트를 통해 jquery없이 DOM 조작을 할 수 있습니다.", 
+      "IE가 지원 종료됨에 따라 ES6를 주로 사용하였습니다.", 
+      "필요함에 따라 각종 라이브러리를 사용할 수 있습니다."]
+  },
+  {
+    "id" : 2,
+    "title" : "Node.js",
+    "icon" : "nodejs",
+    "detail" : [ 
+      "React와 Node.js를 연동한 개인프로젝트를 진행하였습니다.", 
+      "Express를 이용하여 서버를 생성하고, MongoDB를 이용해 데이터 호출 작업을 진행한 경험이 있습니다."
+    ]
+  },
+  {
+    "id" : 3,
+    "title" : "jQuery",
+    "icon" : "jquery",
+    "detail" : [ 
+      "jQuery를 이용해 css로는 구현 한계가 있는 동작이나 이벤트들을 연출할 수 있습니다."
+    ]
+  },
+  {
+    "id" : 4,
+    "title" : "SASS",
+    "icon" : "sass",
+    "detail" : [ 
+      "sass"
+    ]
+  },
+  {
+    "id" : 5,
+    "title" : "CSS3",
+    "icon" : "css3",
+    "detail" : [ 
+      "CSS를 이용해 반응형 홈페이지를 제작할 수 있습니다.", "Animation과 KeyFrame을 통해 역동적인 화면을 연출 할 수 있습니다."
+    ]
+  },
+  {
+    "id" : 6,
+    "title" : "HTML5",
+    "icon" : "html",
+    "detail" : [ 
+      "여러 홈페이지 제작, 유지보수를 통한 경험을 바탕으로 클라이언트가 원하는 화면을 구현할 수 있습니다", 
+      "웹접근성, 웹표준을 준수하려 노력합니다."
+    ]
+  },
+  {
+    "id" : 7,
+    "title" : "GitHub",
+    "icon" : "react",
+    "detail" : [ 
+      "commit, push, pulll명령어를 이용해 기본적인 형상관리를 할 수 있습니다."
+    ]
+  },
+  {
+    "id" : 8,
+    "title" : "Adobe Illustrator",
+    "icon" : "react",
+    "detail" : [ 
+      "기본적인 이미지 작업과 여러 툴들을 능숙하게 다를 수 있습니다."]
+  },
+  {
+    "id" : 9,
+    "title" : "Adobe Photoshop",
+    "icon" : "react",
+    "detail" : [ 
+      "기본적인 이미지 작업과 여러 툴들을 능숙하게 다를 수 있습니다."]
+  }
+]

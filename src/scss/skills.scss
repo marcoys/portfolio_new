@@ -1,0 +1,84 @@
+@import '_mixin.scss';
+
+.skills {
+  .bg-black {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 3;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(3px)
+  }
+
+  .skills-icon-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    > div {
+      padding: 1% 0;
+      width: 23%;
+      margin: 1%;
+      text-align: center;
+    }
+    .modal {
+      z-index: 4;
+      position: absolute;
+      max-width: 450px;
+      width: 90%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      &.on {
+        display: block;
+      }
+      &.off {
+        display: none;
+      }
+      img {
+        width: 120px;
+        margin-bottom: 20px;
+      }
+      ul {
+        text-align: left;
+        li:before {
+          display: inline-block;
+          content: '-';
+          margin-right: 5px;
+        }
+        li {
+          margin: 3px 0;
+          word-break: keep-all;
+          display: flex;
+          flex-direction: row;
+        }
+      }
+    }
+  }
+
+}
+
+.fade_off {
+  opacity: 0;
+}
+
+.fade_on {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+@media screen and (max-width:768px) {
+  .skills {
+    .skills-icon-wrap {
+      > div {
+        padding: 1% 0;
+        width: 28%;
+        margin: 1%;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@mixin title {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+@mixin title-txt {
+  font-size: 2rem;
+  color: #fff;
+  margin-left: 6px;
+}
+
+@mixin title-icon {
+  font-size: 2rem;
+  color: #fff;
+}
