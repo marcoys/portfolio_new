@@ -1,6 +1,7 @@
 @mixin title {
   display: flex;
   margin-bottom: 50px;
+  align-items: center;
 }
 
 @mixin title-txt {

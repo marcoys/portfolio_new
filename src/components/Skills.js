@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../scss/skills.scss';
-import { AiFillProject } from 'react-icons/ai';
+import { AiFillEdit } from 'react-icons/ai';
 import data from '../assets/skills.json';
 
 function Skills() {
@@ -39,7 +39,7 @@ function Skills() {
       }
       
       <div className='title'>
-        <AiFillProject />
+        <AiFillEdit />
         <h1>SKILLS</h1>
       </div>
 
@@ -54,7 +54,7 @@ function Skills() {
 
         {
           modal ?
-            <div className={`modal ${modalFade}`}>
+            <div className={`modal ${modalFade}`}  onClick={() => {closeModal()}}>
               <img src={process.env.PUBLIC_URL +  `/images/${clicked.icon}.png`} alt={clicked.title} className='dummy_icon'/>
               <ul>
                 {
