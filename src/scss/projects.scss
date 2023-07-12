@@ -2,11 +2,16 @@
 
 .projects {
   .box-wrap {
+    .projects-box:hover {
+      background: rgb(83, 83, 83);
+    }
     .projects-box {
       margin: 50px 0;
       padding: 2%;
       box-sizing: border-box;
       background: rgb(72, 72, 72);
+      border-radius: 10px;
+      transition: all ease 0.2s;
       h5:before {
         content: '▶';
         font-size: 0.8rem;
@@ -14,7 +19,7 @@
       }
       h5 {
         font-size: 1.4rem;
-        margin-bottom: 30px;
+        margin: 5px 0 15px 0;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -22,14 +27,86 @@
       .content-box {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         img {
-          max-width: 400px;
-          width: 100%;
+          width: 40%;
         }
-        div {
+        .txt-box {
+          width: 60%;
           margin-left: 2%;
+          .sub-title {
+            background: rgb(255,255,255);
+            background: linear-gradient(90deg, rgba(56,11,73,1) 0%, rgba(72,72,72,1) 85%);
+            padding: 5px 0 5px 10px;
+            margin-bottom: 2px;
+          }
           .sub-content {
-            margin-bottom: 5px;
+            font-weight: 600;
+            margin-bottom: 10px;
+          }
+          .skill-box {
+            img {
+              width: 50px;
+              margin: 0 5px;
+            }
+          }
+          .btn-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 15px 0;
+            div {
+              transition: all ease 0.2s;
+              margin: 0 10px;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+              border: 2px solid transparent;
+              background-image: linear-gradient(rgb(76, 76, 76), rgb(76, 76, 76)), linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+              background-origin: border-box;
+              background-clip: content-box, border-box;
+              p {
+                color: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+                svg {
+                  position: relative;
+                  top: 2px;
+                  left: -2px;
+                }
+              }
+            }
+            div:hover {
+              background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+              p {
+                color: #000;
+                svg {
+                  path {
+                    fill: #000;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    .box-wrap {
+      .projects-box {
+        .content-box {
+          flex-direction: column;
+          img {
+            width: 100%;
+          }
+          .txt-box {
+            width: 100%;
+            margin-left: 0;
+            margin: 20px 0;
           }
         }
       }

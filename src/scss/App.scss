@@ -37,3 +37,16 @@
   opacity: 1;
   transition: opacity ease 0.4s;
 }
+
+.btn {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+  p {
+    text-align: center;
+    line-height: 39px;
+  }
+}

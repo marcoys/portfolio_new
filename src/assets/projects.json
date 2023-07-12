@@ -1,75 +1,84 @@
 [
   {
     "name": "누리웹 PDS 게시판 리뉴얼",
-    "url" : "-",
+    "url" : "",
     "period": "2020.1.10 ~ 2020.1.20",
-    "comment": "퍼블리싱 100% 참여 ( 반응형 )",
+    "comment": "퍼블리싱 100% 참여",
     "skill": [ "html", "css3", "jquery"],
-    "image": [ "nuriweb_01", "nuriweb_02", "nuriweb_03" ]
+    "image": [ "nuriweb_01", "nuriweb_02", "nuriweb_03" ],
+    "github" : ""
   },
   {
     "name": "오렌지팜 출고관리 시스템 홈페이지 제작",
-    "url" : "-",
+    "url" : "",
     "period": "2020.7.01 ~ 2020.8.03",
     "comment": "퍼블리싱 100% 참여 ( PC )",
     "skill": [ "html", "css3", "jquery"],
-    "image": [ "orange_01" ]
+    "image": [ "orange_01" ],
+    "github" : ""
   },
   {
     "name": "중구패션의류지원센터 메인페이지 리뉴얼",
     "url" : "http://www.jfcenter.co.kr/",
     "period": "2020.7.13 ~ 2020.8.14",
-    "comment": "퍼블리싱 100% 참여 ( 반응형 )",
+    "comment": "퍼블리싱 100% 참여",
     "skill": [ "html", "css3", "jquery"],
-    "image": [ "joonggu" ]
+    "image": [ "joonggu" ],
+    "github" : ""
   },
   {
     "name": "GNI 건축사사무소 리뉴얼",
     "url" : "http://www.archikwi.com/",
     "period": "2020.10.06 ~ 2020.12.17",
-    "comment": "퍼블리싱 100% 참여 ( 반응형 )",
+    "comment": "퍼블리싱 100% 참여",
     "skill": [ "html", "css3", "jquery"],
-    "image": [ "gni_01", "gni_02", "gni_03" ]
+    "image": [ "gni_01", "gni_02", "gni_03" ],
+    "github" : ""
   },
   {
     "name": "후성케미컬 홈페이지 제작",
     "url" : "https://www.foosungchem.com/",
     "period": "2020.10.13 ~ 2021.01.19",
-    "comment": "퍼블리싱 100% 참여 ( 반응형 )",
+    "comment": "퍼블리싱 100% 참여",
     "skill": [ "html", "css3", "jquery", "javascript"],
-    "image": [ "foosung_01", "foosung_02", "foosung_03", "foosung_04" ]
+    "image": [ "foosung_01", "foosung_02", "foosung_03", "foosung_04" ],
+    "github" : ""
   },
   {
     "name": "하프스터디 홈페이지 제작",
     "url" : "https://www.halfstudy.com/",
     "period": "2020.10.16 ~ 2021.04.14",
-    "comment": "퍼블리싱 100% 참여 ( 반응형 )",
+    "comment": "퍼블리싱 100% 참여",
     "skill": [ "html", "css3", "jquery", "javascript"],
-    "image": [ "half_01", "half_02", "half_03" ]
+    "image": [ "half_01", "half_02", "half_03" ],
+    "github" : ""
   },
   {
     "name": "인천카톨릭대학교 신학대 홈페이지 제작",
     "url" : "https://shin.iccu.ac.kr",
     "period": "2021.12.20 ~ 2022.02.11",
-    "comment": "퍼블리싱 100% 참여 ( 반응형 )",
+    "comment": "퍼블리싱 100% 참여",
     "skill": [ "html", "css3", "jquery" ],
-    "image": [ "incheon_01", "incheon_02", "incheon_03" ]
+    "image": [ "incheon_01", "incheon_02", "incheon_03" ],
+    "github" : ""
   },
   {
     "name": "인천카톨릭대학교 아고라 홈페이지 제작",
     "url" : "https://agora.iccu.ac.kr",
     "period": "2021.12.27 ~ 2022.01.07",
-    "comment": "퍼블리싱 100% 참여 ( 반응형 )",
+    "comment": "퍼블리싱 100% 참여",
     "skill": [ "html", "css3", "jquery"],
-    "image": [ "agora_01" ]
+    "image": [ "agora_01" ],
+    "github" : ""
   },
   {
     "name": "주식회사 옴니 홈페이지 제작",
     "url" : "http://www.omnicreate.co.kr/",
     "period": "2022.01.15 ~ 2022.2.21",
-    "comment": "퍼블리싱 100% 참여 ( 반응형 )",
+    "comment": "퍼블리싱 100% 참여",
     "skill": [ "html", "css3", "jquery"],
-    "image": [ "omni_01", "omni_02", "omni_03" ]
+    "image": [ "omni_01", "omni_02", "omni_03" ],
+    "github" : ""
   },
   {
     "name": "검단수 한방병원 메인페이지 리뉴얼",
@@ -77,15 +86,17 @@
     "period": "2022.03.28 ~ 2022.4.11",
     "comment": "퍼블리싱 100% 참여 ( PC )",
     "skill": [ "html", "css3", "jquery", "javascript"],
-    "image": [ "gumdansu_01", "gumdansu_02" ]
+    "image": [ "gumdansu_01", "gumdansu_02" ],
+    "github" : ""
   },
   {
     "name": "제일정형외과 홈페이지 리뉴얼",
     "url" : "https://www.cheilos.com/",
     "period": "2022.4.4 ~ 2022.4.15",
-    "comment": "퍼블리싱 100% 참여 ( 반응형 ) - 메인페이지",
+    "comment": "퍼블리싱 100% 참여 - 메인페이지",
     "skill": [ "html", "css3", "jquery", "javascript"],
-    "image": [ "jeil_01" ]
+    "image": [ "jeil_01" ],
+    "github" : ""
   },
   {
     "name": "My Classic List [ 개인 프로젝트 ]",
@@ -93,7 +104,8 @@
     "period": "2023.3.1 ~ 2023.4.21",
     "comment": "React, Node.js, MongoDB를 이용해 관람 공연 정보 등록 페이지 제작, AWS beanstalk를 통한 배포\n 관리자 로그인 시 등록/수정/삭제 가능, [ id: test, pw : test ]",
     "skill": [ "react", "javascript", "nodejs", "html", "css3"],
-    "image": [ "mcl_01", "mcl_02", "mcl_03", "mcl_04" ]
+    "image": [ "mcl_01", "mcl_02", "mcl_03", "mcl_04" ],
+    "github" : "https://github.com/marcoys/mcl_2"
   },
   {
     "name": "Portfolio 홈페이지 [ 개인 프로젝트 ]",
@@ -101,7 +113,8 @@
     "period": "2023.3.20 ~ ",
     "comment": "React, SASS를 이용한 개인 포트폴리오 홈페이지 제작",
     "skill": [ "react", "javascript", "sass", "html"],
-    "image": [ "portfolio_01", "portfolio_02", "portfolio_03"]
+    "image": [ "portfolio_01", "portfolio_02", "portfolio_03"],
+    "github" : ""
   },
   {
     "name": "Matchday [ 개인 프로젝트 ]",
@@ -109,6 +122,7 @@
     "period": "2023.4.1 ~ 2023.4.26",
     "comment": "React, OPENAPI, Redux toolkit 을 이용한 축구데이터 홈페이지 제작",
     "skill": [ "react", "javascript", "sass", "html"],
-    "image": [ "matchday_01", "matchday_02", "matchday_03" ]
+    "image": [ "matchday_01", "matchday_02", "matchday_03" ],
+    "github" : "https://github.com/marcoys/matchday"
   }
 ]
