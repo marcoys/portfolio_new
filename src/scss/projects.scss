@@ -28,8 +28,27 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        img {
+        .img-box {
           width: 40%;
+          img {
+            width: 100%;
+          }
+          .slick-next {
+            right: 10px;
+          }
+          .slick-prev {
+            left: 10px;
+            z-index: 2;
+          }
+          .slick-dots li {
+            margin: 0;
+          }
+          .slick-prev:before, .slick-next:before {
+            color: #bf38df;
+          }
+          .slick-dots li.slick-active button:before {
+            color: #bf38df;
+          }
         }
         .txt-box {
           width: 60%;
@@ -41,7 +60,6 @@
             margin-bottom: 2px;
           }
           .sub-content {
-            font-weight: 600;
             margin-bottom: 10px;
           }
           .skill-box {
@@ -101,6 +119,9 @@
         .content-box {
           flex-direction: column;
           img {
+            width: 100%;
+          }
+          .img-box {
             width: 100%;
           }
           .txt-box {

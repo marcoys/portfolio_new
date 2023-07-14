@@ -6,6 +6,8 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import data from '../assets/projects.json';
 import Skillmap from './Skillmap';
+import CommentMap from './CommentMap';
+import ImgSlide from './ImgSlide';
 
 function Projects() {
   const [ fade, setFade ] = useState('');
@@ -27,12 +29,18 @@ function Projects() {
               <div className='projects-box' key={index}>
                 <h5>{item.name}</h5>
                 <div className='content-box'>
-                  <img src={process.env.PUBLIC_URL+ `/images/${item.image[0]}.gif`} alt={item.name} />
+                  <div className='img-box'>
+                    <ImgSlide image={item.image} />
+                  </div>
+                  
                   <div className='txt-box'>
                     <p className='sub-title'>작업 기간</p>
                     <p className='sub-content'>{item.period}</p>
+                    <p className='sub-title'>참여 파트</p>
+                    <p className='sub-content'>{item.work}</p>
                     <p className='sub-title'>작업 내용</p>
-                    <p className='sub-content'>{item.comment}</p>
+                    <CommentMap comment={item.comment} />
+                    
                     <div className='btn-box'>
                       {
                         item.url != "" ? <div className='btn btn-homepage' onClick={() => window.open(`${item.url}`)}><p><CgWebsite />홈페이지</p></div>
