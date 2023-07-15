@@ -49,6 +49,7 @@
           .slick-dots li.slick-active button:before {
             color: #bf38df;
           }
+          .slick-dots {}
         }
         .txt-box {
           width: 60%;
@@ -61,6 +62,8 @@
           }
           .sub-content {
             margin-bottom: 10px;
+            padding-left: 10px;
+            word-break: keep-all;
           }
           .skill-box {
             img {
@@ -127,7 +130,7 @@
           .txt-box {
             width: 100%;
             margin-left: 0;
-            margin: 20px 0;
+            margin: 30px 0;
           }
         }
       }

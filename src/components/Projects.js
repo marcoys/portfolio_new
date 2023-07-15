@@ -8,6 +8,7 @@ import data from '../assets/projects.json';
 import Skillmap from './Skillmap';
 import CommentMap from './CommentMap';
 import ImgSlide from './ImgSlide';
+import WorkMap from './WorkMap';
 
 function Projects() {
   const [ fade, setFade ] = useState('');
@@ -37,9 +38,18 @@ function Projects() {
                     <p className='sub-title'>작업 기간</p>
                     <p className='sub-content'>{item.period}</p>
                     <p className='sub-title'>참여 파트</p>
-                    <p className='sub-content'>{item.work}</p>
+                    <p className='sub-content'>{item.part}</p>
                     <p className='sub-title'>작업 내용</p>
-                    <CommentMap comment={item.comment} />
+                    <WorkMap work={item.work} />
+                    {
+                      item.comment[0] != '' ?
+                      <>
+                        <p className='sub-title'>코멘트</p>
+                        <CommentMap comment={item.comment} />
+                      </>
+                      :
+                      null
+                    }
                     
                     <div className='btn-box'>
                       {
