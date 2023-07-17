@@ -20,7 +20,18 @@ function Header() {
       onMouseOut={handleMouseOff}
     >
       <h1 onClick={() => {navigate('/')}}>YS</h1>
-      <ul>
+      <div className='menu-box'>
+        <div onClick={() => {navigate('/')}}>
+          <AiFillHome /><h5 className={headerHover ? 'on' : ''}>HOME</h5>
+        </div>
+        <div onClick={() => {navigate('/skills')}}>
+          <AiFillEdit /><h5 className={headerHover ? 'on' : ''}>SKILLS</h5>
+        </div>
+        <div onClick={() => {navigate('/projects')}}>
+          <AiFillProject /><h5 className={headerHover ? 'on' : ''}>PROJECTS</h5>
+        </div>
+      </div>
+      {/* <ul>
         <li onClick={() => {navigate('/')}}>
           <AiFillHome /><h5 className={headerHover ? 'on' : ''}>HOME</h5>
         </li>
@@ -30,7 +41,7 @@ function Header() {
         <li onClick={() => {navigate('/projects')}}>
           <AiFillProject /><h5 className={headerHover ? 'on' : ''}>PROJECTS</h5>
         </li>
-      </ul>
+      </ul> */}
     </header>
   )
 }

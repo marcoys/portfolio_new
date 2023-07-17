@@ -17,11 +17,12 @@ header {
   h1 {
     text-align: center;
     margin: 50px 0 100px 0;
+    cursor: pointer;
   }
-  ul {
+  .menu-box {
     display: inline-block;
     text-align: center;
-    li {
+    > div {
       margin: 30px 0;
       padding: 5px;
       font-size: 1.8rem;
@@ -42,11 +43,59 @@ header {
       }
     }
   }
+  // ul {
+  //   display: inline-block;
+  //   text-align: center;
+  //   li {
+  //     margin: 30px 0;
+  //     padding: 5px;
+  //     font-size: 1.8rem;
+  //     position: relative;
+  //     cursor: pointer;
+  //     h5 {
+  //       font-size: 1.2rem;
+  //       display: inline-block;
+  //       position: absolute;
+  //       top: 10px;
+  //       left: 40px;
+  //       opacity: 0;
+  //       transition-property: opacity;
+  //       transition-duration: 0.2s;
+  //       &.on {
+  //         opacity: 1;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 @media only screen and (max-width : 768px) {
   header {
+    padding: 0 15px;
     width: 100%;
+    max-height: 80px;
+    min-height: 80px;
+    height: 100%;
     flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    &.on {
+      padding: 0 15px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .menu-box {
+      display: flex;
+      flex-direction: row;
+      > div {
+        margin: 0 8px;
+        h5 {
+          &.on {
+            display: none;
+          }
+        }
+      }
+    }
   }
 }
