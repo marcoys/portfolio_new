@@ -19,9 +19,9 @@ function Header() {
       onMouseOver={handleMouseOn}
       onMouseOut={handleMouseOff}
     >
-      <h1 onClick={() => {navigate('/')}}>YS</h1>
+      <h1 onClick={() => {navigate('/portfolio_new')}}>YS</h1>
       <div className='menu-box'>
-        <div onClick={() => {navigate('/')}}>
+        <div onClick={() => {navigate('/portfolio_new')}}>
           <AiFillHome /><h5 className={headerHover ? 'on' : ''}>HOME</h5>
         </div>
         <div onClick={() => {navigate('/skills')}}>

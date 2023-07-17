@@ -12,7 +12,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path='/' element={ <Intro />} />
+        <Route path='/portfolio_new' element={ <Intro />} />
         <Route path='/skills' element={ <Skills />} />
         <Route path='/projects' element={ <Projects /> } />
       </Routes>
