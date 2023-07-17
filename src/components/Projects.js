@@ -18,58 +18,60 @@ function Projects() {
   }, [])
 
   return (
-    <div className={`projects start ${fade}`}>
-      <div className='title'>
-        <AiFillProject />
-        <h1>PROJECTS</h1>
-      </div>
-      <div className='box-wrap'>
-        {
-          [...data].reverse().map((item, index) => {
-            return (
-              <div className='projects-box' key={index}>
-                <h5>{item.name}</h5>
-                <div className='content-box'>
-                  <div className='img-box'>
-                    <ImgSlide image={item.image} />
-                  </div>
-                  
-                  <div className='txt-box'>
-                    <p className='sub-title'>작업 기간</p>
-                    <p className='sub-content'>{item.period}</p>
-                    <p className='sub-title'>참여 파트</p>
-                    <p className='sub-content'>{item.part}</p>
-                    <p className='sub-title'>작업 내용</p>
-                    <WorkMap work={item.work} />
-                    {
-                      item.comment[0] != '' ?
-                      <>
-                        <p className='sub-title'>코멘트</p>
-                        <CommentMap comment={item.comment} />
-                      </>
-                      :
-                      null
-                    }
-                    
-                    <div className='btn-box'>
-                      {
-                        item.url != "" ? <div className='btn btn-homepage' onClick={() => window.open(`${item.url}`)}><p><CgWebsite />홈페이지</p></div>
-                        : null
-                      }
-                      {
-                        item.github != "" ? <div className='btn btn-git' onClick={() => window.open(`${item.github}`)}><p><AiFillGithub />깃허브</p></div>
-                        : null
-                      }
+    <div className='content'>
+      <div className={`projects start ${fade}`}>
+        <div className='title'>
+          <AiFillProject />
+          <h1>PROJECTS</h1>
+        </div>
+        <div className='box-wrap'>
+          {
+            [...data].reverse().map((item, index) => {
+              return (
+                <div className='projects-box' key={index}>
+                  <h5>{item.name}</h5>
+                  <div className='content-box'>
+                    <div className='img-box'>
+                      <ImgSlide image={item.image} />
                     </div>
-                    <div className='skill-box'>
-                      <Skillmap skill={item.skill} />
+                    
+                    <div className='txt-box'>
+                      <p className='sub-title'>작업 기간</p>
+                      <p className='sub-content'>{item.period}</p>
+                      <p className='sub-title'>참여 파트</p>
+                      <p className='sub-content'>{item.part}</p>
+                      <p className='sub-title'>작업 내용</p>
+                      <WorkMap work={item.work} />
+                      {
+                        item.comment[0] != '' ?
+                        <>
+                          <p className='sub-title'>코멘트</p>
+                          <CommentMap comment={item.comment} />
+                        </>
+                        :
+                        null
+                      }
+                      
+                      <div className='btn-box'>
+                        {
+                          item.url != "" ? <div className='btn btn-homepage' onClick={() => window.open(`${item.url}`)}><p><CgWebsite />홈페이지</p></div>
+                          : null
+                        }
+                        {
+                          item.github != "" ? <div className='btn btn-git' onClick={() => window.open(`${item.github}`)}><p><AiFillGithub />깃허브</p></div>
+                          : null
+                        }
+                      </div>
+                      <div className='skill-box'>
+                        <Skillmap skill={item.skill} />
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            )
-          })
-        }
+              )
+            })
+          }
+        </div>
       </div>
     </div>
   )

@@ -16,6 +16,7 @@
     position: relative;
     width: 100%;
     padding: 5%;
+    box-sizing: border-box;
     overflow-y: scroll;
     .title {
       @include title;
@@ -48,5 +49,11 @@
   p {
     text-align: center;
     line-height: 39px;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .App {
+    flex-direction: column;
   }
 }

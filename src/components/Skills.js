@@ -33,44 +33,46 @@ function Skills() {
   }
 
   return (
-    <div className={`skills start ${fade}`}>
-      {
-        modal ? <div onClick={() => {closeModal()}} className={`bg-black ${modalFade}`}></div> : null
-      }
-      
-      <div className='title'>
-        <AiFillEdit />
-        <h1>SKILLS</h1>
-      </div>
-
-      <div className='skills-icon-wrap'>
-        {data.map((item, index) => {
-          return (
-            <div key={index}>
-              <img src={process.env.PUBLIC_URL + `/images/${item.icon}.png`} alt={item.title} className='off' onClick={(e) => {openModal(e)}} id={item.id} />
-            </div>
-          )
-        })}
-
+    <div className='content'>
+      <div className={`skills start ${fade}`}>
         {
-          modal ?
-            <div className={`modal ${modalFade}`}  onClick={() => {closeModal()}}>
-              <img src={process.env.PUBLIC_URL +  `/images/${clicked.icon}.png`} alt={clicked.title} className='dummy_icon'/>
-              <ul>
-                {
-                  clicked.detail.map((item) => {
-                    return (
-                      <li>
-                        {item}
-                      </li>
-                    )
-                  })
-                }
-              </ul>
-            </div>
-          :
-            null
-          }
+          modal ? <div onClick={() => {closeModal()}} className={`bg-black ${modalFade}`}></div> : null
+        }
+        
+        <div className='title'>
+          <AiFillEdit />
+          <h1>SKILLS</h1>
+        </div>
+
+        <div className='skills-icon-wrap'>
+          {data.map((item, index) => {
+            return (
+              <div key={index}>
+                <img src={process.env.PUBLIC_URL + `/images/${item.icon}.png`} alt={item.title} className='off' onClick={(e) => {openModal(e)}} id={item.id} />
+              </div>
+            )
+          })}
+
+          {
+            modal ?
+              <div className={`modal ${modalFade}`}  onClick={() => {closeModal()}}>
+                <img src={process.env.PUBLIC_URL +  `/images/${clicked.icon}.png`} alt={clicked.title} className='dummy_icon'/>
+                <ul>
+                  {
+                    clicked.detail.map((item) => {
+                      return (
+                        <li>
+                          {item}
+                        </li>
+                      )
+                    })
+                  }
+                </ul>
+              </div>
+            :
+              null
+            }
+        </div>
       </div>
     </div>
   )

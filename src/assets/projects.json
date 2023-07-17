@@ -154,9 +154,10 @@
     "url" : "https://marcoys.github.io/matchday/",
     "period": "2023.4.1 ~ 2023.4.26",
     "part": "Publishing : 100%, Frontend : 100%",
-    "work": ["React, OPENAPI, Redux toolkit을 이용한 축구데이터 홈페이지 제작"],
+    "work": ["React, OpenAPI, Redux toolkit을 이용한 축구 데이터 홈페이지 제작"],
     "comment": ["OpenAPI와 Redux를 경험해보고 싶어 진행한 개인 프로젝트입니다.", 
-    "이 프로젝트를 통해 동기와 비동기의 개념을 체감할 수 있었고 리덕스를 사용해봄으로써 상태관리의 편의성을 느낄 수 있었습니다."
+    "페이지 로딩 시 데이터를 불러오는 과정을 통해 동기와 비동기의 개념을 체감할 수 있었습니다.", 
+    "리덕스 툴킷을 사용해봄으로써 상태관리의 편의성을 느낄 수 있었습니다. "
     ],
     "skill": [ "react", "javascript", "sass", "html"],
     "image": [ "matchday_01", "matchday_02", "matchday_03" ],
