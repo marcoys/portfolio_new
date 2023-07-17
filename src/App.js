@@ -12,10 +12,9 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path='/portfolio_new' element={ <Intro />}>
-          <Route path='/skills' element={ <Skills />} />
-          <Route path='/projects' element={ <Projects /> } />
-        </Route>
+        <Route path='/portfolio_new' element={ <Intro />} />
+        <Route path='/portfolio_new/skills' element={ <Skills />} />
+        <Route path='/portfolio_new/projects' element={ <Projects /> } />
       </Routes>
     </div>
   );

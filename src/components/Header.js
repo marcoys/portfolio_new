@@ -24,10 +24,10 @@ function Header() {
         <div onClick={() => {navigate('/portfolio_new')}}>
           <AiFillHome /><h5 className={headerHover ? 'on' : ''}>HOME</h5>
         </div>
-        <div onClick={() => {navigate('/skills')}}>
+        <div onClick={() => {navigate('/portfolio_new/skills')}}>
           <AiFillEdit /><h5 className={headerHover ? 'on' : ''}>SKILLS</h5>
         </div>
-        <div onClick={() => {navigate('/projects')}}>
+        <div onClick={() => {navigate('/portfolio_new/projects')}}>
           <AiFillProject /><h5 className={headerHover ? 'on' : ''}>PROJECTS</h5>
         </div>
       </div>
