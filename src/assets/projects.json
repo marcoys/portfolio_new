@@ -162,5 +162,17 @@
     "skill": [ "react", "javascript", "sass", "html"],
     "image": [ "matchday_01", "matchday_02", "matchday_03" ],
     "github" : "https://github.com/marcoys/matchday"
+  },
+  {
+    "name": "Portfolio 새버전 [ 개인 프로젝트 ]",
+    "url" : "https://marcoys.github.io/portfolio_new/",
+    "period": "2023.7.3 ~ 2023.7.16",
+    "part": "Publishing : 100%, Frontend : 100%",
+    "work": ["React, SCSS를 이용한 개인 포트폴리오 홈페이지 제작"],
+    "comment": ["기존 포트폴리오가 맘에 안들어 다시 제작한 포트폴리오 사이트", "반응형으로 제작", "JSON 파일을 이용해 불필요하게 반복되는 코드를 방지"
+    ],
+    "skill": [ "react", "javascript", "sass", "html"],
+    "image": [ "port_new_01", "port_new_02", "port_new_03", "port_new_04" ],
+    "github" : "https://github.com/marcoys/portfolio_new"
   }
 ]
