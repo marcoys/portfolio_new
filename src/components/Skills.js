@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import '../scss/skills.scss';
 import { AiFillEdit } from 'react-icons/ai';
 import data from '../assets/skills.json';
+import { gsap } from "gsap";
+
 
 function Skills() {
   const [ fade, setFade ] = useState('')
@@ -10,8 +12,20 @@ function Skills() {
   const [ clicked, setClicked ] = useState([]);
   
   useEffect(() => {
-    setFade('end')
-  })
+    setFade('end');
+    const ani1 = gsap.timeline();
+    ani1.from('.icon-box img', {
+      scale: 0,
+      rotate: 960,
+      duration: 1,
+      ease: 'circ.out',
+      stagger: {
+        amount: 1,
+        from: 'random'
+      }
+    })
+
+  }, [])
 
   useEffect(() => {
     if(modal) {
@@ -47,7 +61,7 @@ function Skills() {
         <div className='skills-icon-wrap'>
           {data.map((item, index) => {
             return (
-              <div key={index}>
+              <div key={index} className='icon-box'>
                 <img src={process.env.PUBLIC_URL + `/images/${item.icon}.png`} alt={item.title} className='off' onClick={(e) => {openModal(e)}} id={item.id} />
               </div>
             )
@@ -59,9 +73,9 @@ function Skills() {
                 <img src={process.env.PUBLIC_URL +  `/images/${clicked.icon}.png`} alt={clicked.title} className='dummy_icon'/>
                 <ul>
                   {
-                    clicked.detail.map((item) => {
+                    clicked.detail.map((item, index) => {
                       return (
-                        <li>
+                        <li key={index}>
                           {item}
                         </li>
                       )

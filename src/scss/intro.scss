@@ -102,6 +102,20 @@
                 }
               }
             }
+            .link-box {
+              margin-top: 10px;
+              display: flex;
+              flex-direction: row;
+              font-size: 1.5rem;
+              align-items: end;
+              p {
+                cursor: pointer;
+              }
+              p:hover {
+                transition: ease-in 0.1s;
+                color: #ec96ff;
+              }
+            }
           }
         }
       }
@@ -159,6 +173,7 @@
         flex-direction: column;
         .info-indiv {
           width: 100%;
+          margin-bottom: 50px;
         }
         .info-etc {
           width: 100%;
