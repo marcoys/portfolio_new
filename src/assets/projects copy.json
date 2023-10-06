@@ -138,7 +138,7 @@
   },
   {
     "name": "Portfolio 홈페이지 [ 개인 프로젝트 ]",
-    "url" : "",
+    "url" : "https://marcoys.github.io/portfolio/",
     "period": "2023.3.20 ~ ",
     "part": "Publishing : 100%, Frontend : 100%",
     "work": ["React, SCSS를 이용한 개인 포트폴리오 홈페이지 제작"],
@@ -147,7 +147,7 @@
     "Component별로 scss파일을 구분하여 작업이 가능하여 수정 작업이 용이했습니다."],
     "skill": [ "react", "javascript", "sass", "html"],
     "image": [ "portfolio_01", "portfolio_02", "portfolio_03"],
-    "github" : "https://github.com/marcoys/portfolio"
+    "github" : ""
   },
   {
     "name": "Matchday [ 개인 프로젝트 ]",

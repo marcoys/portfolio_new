@@ -77,6 +77,16 @@ function Intro() {
             <div className='work'>
               <h5>Work</h5>
               <div>
+                <strong>넥스미디어</strong>
+                <p>2023.09.11 ~ [ 근무중 ]</p>
+                <p>웹 퍼블리셔 근무 (주임)</p>
+                <ul>
+                  <li>
+                    <p>부동산 분양 사이트 퍼블리싱 업무</p>
+                  </li>
+                </ul>
+              </div>
+              <div>
                 <strong>누리웹</strong>
                 <p>2020.01.02 ~ 2022.05.31</p>
                 <p>웹 퍼블리셔 근무 (대리)</p>
