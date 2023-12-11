@@ -18,12 +18,14 @@ function Intro() {
   const thumbRef = useRef(null);
   const txt1Ref = useRef(null);
   const txt2Ref = useRef(null);
+  const panel = useRef(null);
 
   useEffect(() => {
     const ani1 = thumbRef.current;
     const ani2 = txt1Ref.current;
     const ani3 = txt2Ref.current;
     const top = introRef.current;
+    const introFix = panel.current;
     const tl = gsap.timeline();
 
     tl.fromTo(ani1, {y: -200, autoAlpha: 0}, {y: 0, autoAlpha: 1, duration: 1})
@@ -41,6 +43,13 @@ function Intro() {
     }
     );
 
+    ScrollTrigger.create({
+      trigger: introFix,
+      start: "top top",
+      pin: true,
+      pinSpacing: false
+    })
+
   }, [])
 
   useEffect(() => {
@@ -51,7 +60,7 @@ function Intro() {
 
   return (
     <div className='intro' ref={introRef}>
-      <div className='intro_content'>
+      <div className='intro_content' ref={panel}>
         <img src={process.env.PUBLIC_URL + '/images/mm2.png'} alt="" ref={thumbRef} />
         <h1 ref={txt1Ref}>
           웹 퍼블리셔, 프론트엔드 개발자<br />
