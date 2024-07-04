@@ -125,7 +125,7 @@
     "url" : "http://myclassiclist-env.eba-gczrcczm.ap-northeast-2.elasticbeanstalk.com/",
     "period": "2023.3.1 ~ 2023.4.21",
     "part": "Publishing : 100%, Frontend : 100%, Backend 100%",
-    "work":  ["[ id: test, pw : test ]", 
+    "work":  ["[ id: test, pw : test ]",
     "지금까지 관람한 클래식 공연들과 연주곡들을 정리할 수 있는 홈페이지입니다.",
     "데이터 관리를 위하여 MongoDB를 사용하였고, Node.js를 이용하여 서버와 API를 만들어 프론트와 통신할 수 있도록 만들었습니다.",
     "비로그인시 공연 리스트와 연주곡 리스트만 볼 수 있게 하였고 로그인시 등록, 수정, 삭제가 가능하도록 만들었습니다.",
@@ -155,8 +155,8 @@
     "period": "2023.4.1 ~ 2023.4.26",
     "part": "Publishing : 100%, Frontend : 100%",
     "work": ["React, OpenAPI, Redux toolkit을 이용한 축구 데이터 홈페이지 제작"],
-    "comment": ["OpenAPI와 Redux를 경험해보고 싶어 진행한 개인 프로젝트입니다.", 
-    "페이지 로딩 시 데이터를 불러오는 과정을 통해 동기와 비동기의 개념을 체감할 수 있었습니다.", 
+    "comment": ["OpenAPI와 Redux를 경험해보고 싶어 진행한 개인 프로젝트입니다.",
+    "페이지 로딩 시 데이터를 불러오는 과정을 통해 동기와 비동기의 개념을 체감할 수 있었습니다.",
     "리덕스 툴킷을 사용해봄으로써 상태관리의 편의성을 느낄 수 있었습니다. "
     ],
     "skill": [ "react", "javascript", "sass", "html"],
@@ -174,5 +174,72 @@
     "skill": [ "react", "javascript", "sass", "html"],
     "image": [ "port_new_01", "port_new_02", "port_new_03", "port_new_04" ],
     "github" : "https://github.com/marcoys/portfolio_new"
+  },
+  {
+    "name": "더샵 의정부역 링크시티",
+    "url" : "https://xn--9m1bx5jgnderewzcs0gtychzbd34bbyf.kr/",
+    "period": "",
+    "part": "Publishing : 100%, Frontend : 100%",
+    "work": [""],
+    "comment": [""
+    ],
+    "skill": [ "javascript", "html"],
+    "image": [ "" ],
+    "github" : ""
+  },
+  {
+    "name": "더샵 의정부역 링크시티",
+    "url" : "https://xn--9m1bx5jgnderewzcs0gtychzbd34bbyf.kr/",
+    "period": "3일",
+    "part": "Publishing : 100%, Frontend : 100%",
+    "work": [""],
+    "comment": ["메인페이지 퍼블, 서브페이지"],
+    "skill": [ "javascript", "html"],
+    "image": [ "" ],
+    "github" : ""
+  },
+  {
+    "name": "더샵 광양 레이크센텀",
+    "url" : "https://xn--hc0bt2ji8dd5khkaw5twsd2uytxb.kr/",
+    "period": "3일",
+    "part": "Publishing : 100%, Frontend : 100%",
+    "work": [""],
+    "comment": ["메인페이지 퍼블, 서브페이지"],
+    "skill": [ "javascript", "html"],
+    "image": [ "" ],
+    "github" : ""
+  },
+  {
+    "name": "더샵 속초 프라임뷰",
+    "url" : "https://xn--9m1bw2fv1gkndzva25xm4jh6p.kr/",
+    "period": "3일",
+    "part": "Publishing : 100%, Frontend : 100%",
+    "work": [""],
+    "comment": ["메인페이지 퍼블, 서브페이지"],
+    "skill": [ "javascript", "html"],
+    "image": [ "" ],
+    "github" : ""
+  },
+  {
+    "name": "바탕색이엔지",
+    "url" : "https://www.batangsak.com/",
+    "period": "3일",
+    "part": "Publishing : 100%, Frontend : 100%",
+    "work": [""],
+    "comment": ["메인페이지 퍼블, 서브페이지 레이아웃"],
+    "skill": [ "javascript", "html"],
+    "image": [ "" ],
+    "github" : ""
+  },
+  {
+    "name": "푸르지오 스타셀라49",
+    "url" : "https://www.prugio.com/ht/2024/starselah49/",
+    "period": "3일",
+    "part": "Publishing : 100%, Frontend : 100%",
+    "work": [""],
+    "comment": ["메인페이지 퍼블"],
+    "skill": [ "javascript", "html"],
+    "image": [ "" ],
+    "github" : ""
   }
 ]
